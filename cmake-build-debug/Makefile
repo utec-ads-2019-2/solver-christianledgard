@@ -123,33 +123,6 @@ solver_christianledgard/fast:
 	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/build
 .PHONY : solver_christianledgard/fast
 
-funciones.o: funciones.cpp.o
-
-.PHONY : funciones.o
-
-# target to build an object file
-funciones.cpp.o:
-	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/funciones.cpp.o
-.PHONY : funciones.cpp.o
-
-funciones.i: funciones.cpp.i
-
-.PHONY : funciones.i
-
-# target to preprocess a source file
-funciones.cpp.i:
-	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/funciones.cpp.i
-.PHONY : funciones.cpp.i
-
-funciones.s: funciones.cpp.s
-
-.PHONY : funciones.s
-
-# target to generate assembly for a file
-funciones.cpp.s:
-	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/funciones.cpp.s
-.PHONY : funciones.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+solver.o: solver.cpp.o
+
+.PHONY : solver.o
+
+# target to build an object file
+solver.cpp.o:
+	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/solver.cpp.o
+.PHONY : solver.cpp.o
+
+solver.i: solver.cpp.i
+
+.PHONY : solver.i
+
+# target to preprocess a source file
+solver.cpp.i:
+	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/solver.cpp.i
+.PHONY : solver.cpp.i
+
+solver.s: solver.cpp.s
+
+.PHONY : solver.s
+
+# target to generate assembly for a file
+solver.cpp.s:
+	$(MAKE) -f CMakeFiles/solver_christianledgard.dir/build.make CMakeFiles/solver_christianledgard.dir/solver.cpp.s
+.PHONY : solver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... solver_christianledgard"
-	@echo "... funciones.o"
-	@echo "... funciones.i"
-	@echo "... funciones.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... solver.o"
+	@echo "... solver.i"
+	@echo "... solver.s"
 .PHONY : help
 
 

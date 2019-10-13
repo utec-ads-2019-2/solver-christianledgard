@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/funciones.cpp" "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles/solver_christianledgard.dir/funciones.cpp.o"
   "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/main.cpp" "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles/solver_christianledgard.dir/main.cpp.o"
+  "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.cpp" "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles/solver_christianledgard.dir/solver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

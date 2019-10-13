@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/funciones.cpp">
+		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/main.cpp">
 			<Option target="solver_christianledgard"/>
 		</Unit>
-		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/main.cpp">
+		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.cpp">
+			<Option target="solver_christianledgard"/>
+		</Unit>
+		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.h">
 			<Option target="solver_christianledgard"/>
 		</Unit>
 		<Unit filename="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/CMakeLists.txt">

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/solver_christianledgard.dir/funciones.cpp.o"
   "CMakeFiles/solver_christianledgard.dir/main.cpp.o"
+  "CMakeFiles/solver_christianledgard.dir/solver.cpp.o"
   "solver_christianledgard"
   "solver_christianledgard.pdb"
 )

@@ -70,29 +70,29 @@ CMakeFiles/solver_christianledgard.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_christianledgard.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/main.cpp" -o CMakeFiles/solver_christianledgard.dir/main.cpp.s
 
-CMakeFiles/solver_christianledgard.dir/funciones.cpp.o: CMakeFiles/solver_christianledgard.dir/flags.make
-CMakeFiles/solver_christianledgard.dir/funciones.cpp.o: ../funciones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solver_christianledgard.dir/funciones.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solver_christianledgard.dir/funciones.cpp.o -c "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/funciones.cpp"
+CMakeFiles/solver_christianledgard.dir/solver.cpp.o: CMakeFiles/solver_christianledgard.dir/flags.make
+CMakeFiles/solver_christianledgard.dir/solver.cpp.o: ../solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solver_christianledgard.dir/solver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/solver_christianledgard.dir/solver.cpp.o -c "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.cpp"
 
-CMakeFiles/solver_christianledgard.dir/funciones.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solver_christianledgard.dir/funciones.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/funciones.cpp" > CMakeFiles/solver_christianledgard.dir/funciones.cpp.i
+CMakeFiles/solver_christianledgard.dir/solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solver_christianledgard.dir/solver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.cpp" > CMakeFiles/solver_christianledgard.dir/solver.cpp.i
 
-CMakeFiles/solver_christianledgard.dir/funciones.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_christianledgard.dir/funciones.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/funciones.cpp" -o CMakeFiles/solver_christianledgard.dir/funciones.cpp.s
+CMakeFiles/solver_christianledgard.dir/solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_christianledgard.dir/solver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/solver.cpp" -o CMakeFiles/solver_christianledgard.dir/solver.cpp.s
 
 # Object files for target solver_christianledgard
 solver_christianledgard_OBJECTS = \
 "CMakeFiles/solver_christianledgard.dir/main.cpp.o" \
-"CMakeFiles/solver_christianledgard.dir/funciones.cpp.o"
+"CMakeFiles/solver_christianledgard.dir/solver.cpp.o"
 
 # External object files for target solver_christianledgard
 solver_christianledgard_EXTERNAL_OBJECTS =
 
 solver_christianledgard: CMakeFiles/solver_christianledgard.dir/main.cpp.o
-solver_christianledgard: CMakeFiles/solver_christianledgard.dir/funciones.cpp.o
+solver_christianledgard: CMakeFiles/solver_christianledgard.dir/solver.cpp.o
 solver_christianledgard: CMakeFiles/solver_christianledgard.dir/build.make
 solver_christianledgard: CMakeFiles/solver_christianledgard.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/solver-christianledgard/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable solver_christianledgard"
