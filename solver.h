@@ -34,7 +34,7 @@ public:
     }
 
     void createPostOrder(string line);
-    long evaluar(char operador);
+    float evaluar(char operador);
     void calculateStack();
     void printPostOrder();
     T resultado();

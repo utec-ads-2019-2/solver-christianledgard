@@ -103,10 +103,10 @@ void Solver::createPostOrder(string line) {
     }
 
 }
-long Solver::evaluar(char operador){
-    long n2 = stol(stackArbol.top()->getValue());
+float Solver::evaluar(char operador){
+    float n2 = stof(stackArbol.top()->getValue());
     stackArbol.pop();
-    long n1 = stol(stackArbol.top()->getValue());
+    float n1 = stof(stackArbol.top()->getValue());
     stackArbol.pop();
 
     switch(operador){
@@ -132,7 +132,7 @@ void Solver::calculateStack() {
                 if(variables[(*it)->getValue()[0]]){ //Si existe una variable registrada
                     stackArbol.push(new node(to_string(variables[(*it)->getValue()[0]])));
                 } else {
-                    long temp;
+                    float temp;
                     cout << "Ingrese el valor de la variable " << (*it)->getValue()[0] << ": ";
                     cin >> temp;
                     variables[(*it)->getValue()[0]]=temp;
