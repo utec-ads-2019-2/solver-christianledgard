@@ -7,8 +7,8 @@ int main() {
     getline(cin, input);
 
     Solver Exp(input);
-    Exp.printPostOrder();
-    cout << endl;
+    //Exp.printPostOrder();
+    //cout << endl;
     cout << "El resultado es: " << Exp.resultado();
 
     return 0;
